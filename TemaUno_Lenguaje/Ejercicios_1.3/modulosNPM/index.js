@@ -1,3 +1,5 @@
+//Ariel Alonso Gongora Tziu
+
 import { randomSuperhero } from 'superheroes';
 
 const nombreHeroe = randomSuperhero();
