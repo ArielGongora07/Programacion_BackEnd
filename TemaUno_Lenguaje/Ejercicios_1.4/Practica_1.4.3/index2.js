@@ -16,6 +16,7 @@ const port = 3000;
 var nombreEquipo = "";
 
 
+
 function registrador(req, res, next) {
 
     console.log(req.body); 
