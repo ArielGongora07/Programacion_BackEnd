@@ -1,0 +1,24 @@
+body {
+  background: #0b0c10;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.card {
+  background: #1f2833;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  margin: 40px auto;
+  box-shadow: 0 0 20px #66fcf1;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}

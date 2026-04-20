@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Título que aparece en la pestaña del navegador -->
+  <title>Rick and Morty</title>
+
+  <!-- Enlace al archivo CSS ubicado en la carpeta public/styles -->
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+
+<body>
+
+  <!-- Título principal de la página -->
+  <h1>Personaje Rick and Morty 🛸</h1>
+
+  <!-- Contenedor tipo tarjeta para mostrar la información -->
+  <div class="card">
+
+    <!-- Imagen del personaje (se obtiene desde la API) -->
+    <img src="<%= image %>" alt="personaje">
+
+    <!-- Nombre del personaje (dato dinámico enviado desde app.js) -->
+    <h2><%= name %></h2>
+
+    <!-- Especie del personaje -->
+    <p>Especie: <%= species %></p>
+
+    <!-- Estado del personaje (vivo, muerto, etc.) -->
+    <p>Estado: <%= status %></p>
+
+  </div>
+
+</body>
+</html>
